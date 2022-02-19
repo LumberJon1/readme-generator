@@ -69,9 +69,18 @@ const promptUser = () => {
             default: "No information on testing."
         },
         {
-            type: "",
+            type: "list",
             name: "license",
             message: "What kind of license was this created under?",
+            choices: ["MIT License", "GNU GPLv3", "Other"],
+            validate: license => {
+                if (license) {
+                    return true;
+                }
+                else {
+                    console.log("Please select a license.");
+                }
+            }
         },
         {
             type: "input",
