@@ -6,7 +6,44 @@ const inquirer = require("inquirer");
 // TODO: Create an array of questions for user input
 const questions = [];
 //Test data for running the prompts
-const testData = ["Project Name", "Project Description", "License Type", "Install by downloading Node and then running node index", "Use this to generate a professional README.", "Please don't contribute to this project.", "Test Instructions", "GitBasher2000", "gitbasher@hotmail.com"];
+const testData = [
+    {
+        name: "projectTitle",
+        value: "Project Name"
+    },
+    {
+        name: "description",
+        value:"Project Description"
+    },
+    {
+        name: "license",
+        value:"License Type"
+    },
+    {
+        name: "installation",
+        value:"Install by downloading Node and then running node index"
+    },
+    {
+        name: "usage",
+        value:"Use this to generate a professional README."
+    },
+    {
+        name: "contributing",
+        value:"Please don't contribute to this project."
+    },
+    {
+        name: "tests",
+        value:"Test Instructions"
+    },
+    {
+        name: "github",
+        value:"GitBasher2000"
+    },
+    {
+        name: "email",
+        value:"gitbasher@hotmail.com"
+    }
+];
 
 //user input prompts
 const promptUser = () => {
