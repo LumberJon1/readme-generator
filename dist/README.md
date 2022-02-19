@@ -1,9 +1,9 @@
-# Project 1
+# le proj
   ## Description
-  It is a project that generates READMEs
+  it is a proj
 
   ## License
-  GNU GPLv3
+  [<img src="https://img.shields.io/badge/License-MIT License-blue.svg?logo=LOGO">](LINK)
 
   ## Table of Contents
     1. [Installation](Installation)
@@ -16,7 +16,7 @@
   No installation is required to run this project.
 
   ## Usage
-  Basically just you do you, fam
+  Just open it and instantly win your very own private headache
 
   ## Contributing
   Please do not contribute directly to this project.  If you have a suggestion, reach out to me directly.
@@ -25,6 +25,6 @@
   No information on testing.
 
   ## Questions
-    [Check out my GitHub] (https://github.com/LumberJon1)
+    [Check out my GitHub] (https://github.com/caffeineordie)
     --or--
-    Email me at nodeofnodes@gmail.com
+    Email me at thenode@gmail.com

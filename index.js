@@ -71,7 +71,7 @@ const promptUser = () => {
             type: "list",
             name: "license",
             message: "What kind of license was this created under?",
-            choices: ["MIT License", "GNU GPLv3", "Other"],
+            choices: ["MIT", "GPL", "None"],
             validate: license => {
                 if (license) {
                     return true;
@@ -107,7 +107,7 @@ const promptUser = () => {
                 }
             }
         }
-])
+    ])
 }
 
 // TODO: Create a function to write README file
