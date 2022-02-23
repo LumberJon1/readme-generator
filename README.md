@@ -28,3 +28,6 @@
   [Check out my GitHub](https://github.com/LumberJon1)
   --or--
   Email me at JWilliams12117@gmail.com
+
+  ## Video Walkthrough Link:
+  [Instructional Video](https://drive.google.com/file/d/1odpbiL6CqB2QGACOOcNS23cDEa4PNr1Y/view)
