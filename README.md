@@ -1,19 +1,30 @@
-# readme-generator
+# README Generator
+  ## Description
+  This project takes user command line inputs using the node Inquirer module, and generates a README.md file as an output, with a table of contents that links to various sections, each containing useful information to potential users of the program.
 
-## Acceptance Criteria
-GIVEN a command-line application that accepts user input 
-WHEN I am prompted for information about my application repository 
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions 
-WHEN I enter my project title 
-THEN this is displayed as the title of the README 
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions 
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests 
-WHEN I choose a license for my application from a list of options 
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under 
-WHEN I enter my GitHub username 
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile WHEN I enter my email address 
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions 
-WHEN I click on the links in the Table of Contents 
-THEN I am taken to the corresponding section of the README
+  ## License
+  [<img src="https://img.shields.io/badge/License-MIT-blue.svg?logo=LOGO">](LINK)
 
-<img src="https://img.shields.io/badge/License-MIT-blue.svg?logo=LOGO">
+  ## Table of Contents
+  1. [Installation](#Installation)
+  2. [Usage](#Usage)
+  3. [Contributing](#Contributing)
+  4. [Tests](#Tests)
+  5. [Questions](#Questions)
+
+  ## Installation
+  To run this program, please clone the file and run within node.js.  The index.js file in the root directory contains all necesary requires to run, but you will want to run npm install or npm i to ensure that Inquirer is up to date and has all necessary dependencies.
+
+  ## Usage
+  Users can download and run this program to quickly generate README files for their projects that will have a lot of solid information, and keep the document organized and effective without having to think too hard about what should be in the file.
+
+  ## Contributing
+  If you would like to contribute to this project, feel free to reach out to me directly (See instructions under the Questions section).
+
+  ## Tests
+  No automated testing was used in developing this application.
+
+  ## Questions
+  [Check out my GitHub](https://github.com/LumberJon1)
+  --or--
+  Email me at JWilliams12117@gmail.com
