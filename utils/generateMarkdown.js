@@ -19,11 +19,11 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Table of Contents
-    1. [Installation](Installation)
-    2. [Usage](Usage)
-    3. [Contributing](Contributing)
-    4. [Tests](Tests)
-    5. [Questions](Questions)
+  1. [Installation](#Installation)
+  2. [Usage](#Usage)
+  3. [Contributing](#Contributing)
+  4. [Tests](#Tests)
+  5. [Questions](#Questions)
 
   ## Installation
   ${data.installation}
@@ -38,9 +38,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-    [Check out my GitHub] (https://github.com/${data.github})
-    --or--
-    Email me at ${data.email}
+  [Check out my GitHub](https://github.com/${data.github})
+  --or--
+  Email me at ${data.email}
 `;
 }
 
