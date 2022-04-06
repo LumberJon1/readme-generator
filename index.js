@@ -40,7 +40,12 @@ const promptUser = () => {
             type: "input",
             name: "installation",
             message: "Please provide installation instructions, if applicable.",
-            default: "No installation is required to run this project."
+            default: "No installation is required to run this project.  View the 'Deployment' section to find the link to the site."
+        },
+        {
+            type: "input",
+            name: "deployment",
+            message: "Enter the link to the deployed application.  Include full URL with https://"
         },
         {
             type: "input",
@@ -57,15 +62,26 @@ const promptUser = () => {
         },
         {
             type: "input",
+            name: "screenshot",
+            message: "Provide the relative filepath to the screenshot file for this project.",
+            default: "/"
+        },
+        {
+            type: "input",
             name: "contributing",
-            message: "How should other developers help contribute to this project? (skip if you do not wish for other developers to contribute.)",
-            default: "Please do not contribute directly to this project.  If you have a suggestion, reach out to me directly."
+            message: "How should other developers help contribute to this project?",
+            default: "Please feel free to contact me if you have questions about contributing to this project.  Ypu can reach out via my email or GirHub account linked below."
+        },
+        {
+            type: "input",
+            name: "technologies",
+            message: "Type a comma-separated list of technologies used in creating this program."
         },
         {
             type: "input",
             name: "tests",
             message: "Enter any applicable test information.",
-            default: "No information on testing."
+            default: "No testing frameworks were used in the development of this project, and it does not contain test files."
         },
         {
             type: "list",

@@ -9,6 +9,15 @@ function renderLicenseBadge(license) {
     }
 };
 
+function listTechnologies(string) {
+    let splitString = string.split(", ");
+    // let formattedString = splitString.map((item) => {
+    //     if (item[0] === ",")
+    // })
+    let bullets = splitString.map((item) => "* "+item+"\n");
+    return bullets;
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
@@ -23,10 +32,10 @@ function generateMarkdown(data) {
   2. [Deployment](#Deployment)
   3. [Usage](#Usage)
   4. [Screenshot](#Screenshot)
-  4. [Contributing](#Contributing)
-  5. [Technologies](#Technologies)
-  6. [Tests](#Tests)
-  7. [Questions](#Questions)
+  5. [Contributing](#Contributing)
+  6. [Technologies](#Technologies)
+  7. [Tests](#Tests)
+  8. [Questions](#Questions)
 
   ## Installation
   ${data.installation}
@@ -38,13 +47,13 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Screenshot
-  ${data.screenshot}
+  ![Screenshot](${data.screenshot})
 
   ## Contributing
   ${data.contributing}
 
   ## Technologies
-  ${data.technologies}
+  ${listTechnologies(data.technologies)}
 
   ## Tests
   ${data.tests}
