@@ -20,19 +20,31 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   1. [Installation](#Installation)
-  2. [Usage](#Usage)
-  3. [Contributing](#Contributing)
-  4. [Tests](#Tests)
-  5. [Questions](#Questions)
+  2. [Deployment](#Deployment)
+  3. [Usage](#Usage)
+  4. [Screenshot](#Screenshot)
+  4. [Contributing](#Contributing)
+  5. [Technologies](#Technologies)
+  6. [Tests](#Tests)
+  7. [Questions](#Questions)
 
   ## Installation
   ${data.installation}
 
+  ## Deployment
+  ${data.deployment}
+
   ## Usage
   ${data.usage}
 
+  ## Screenshot
+  ${data.screenshot}
+
   ## Contributing
   ${data.contributing}
+
+  ## Technologies
+  ${data.technologies}
 
   ## Tests
   ${data.tests}
